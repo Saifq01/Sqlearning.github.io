@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <!--Navigarion-->
+    <nav>
+        <img src="images/main-course-3.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id = "menu" src="images/threelines.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+    <section id="about-home">
+        <h2>Contact Us </h2>
+        
+    </section>
+
+<section id="contact">
+    <div class="getin">
+        <h2> Get In Touch </h2>
+        <p>Looking for help? Fill the form and We will happy to help</p>
+        <div class="getin-details">
+            <h3>Headquaters</h3>
+            <div>
+                <i class="far fa-home get"></i>
+                <p>Somerset, New Jersey</p>
+            </div>
+            <h3>Phone</h3>
+            <div>
+                <i class="fas fa-phone-alt get"></i>
+                <p>+1 (123)-456-7890 <br> +2 (908)-212-2121</p>
+            </div>
+            <h3>Support</h3>
+            <div>
+                <i class="fal fa-envelope-open-text get"></i>
+                <p>Geteducate@gmail.com <br> Support@gmail.com </p>
+            </div>
+            <h3>Follow Us</h3>
+      
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div> 
+        </div>
+    </div>
+    <div class="form">
+        <h4>Let's Connect</h4>
+        <p>You can fill this form to connect us</p>
+        <div class="form-row">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="form-col">
+            <input type="text" placeholder="Subject" >
+        </div>
+        <div class="form-col">
+            <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?">
+            </textarea>
+        </div>
+        <div class="from-col">
+            <button>Send message</button>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-col">
+            <h3>NewLetter</h3>
+            <p>You can Subscribe to so we can send the Promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="blueviolet">SUBSCRIBE</a>
+            </div>
+        </div>
+
+         <div class="copyright">
+                <p>Copyright &copy2021 All Right Reserved</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div> 
+    </footer>
+    <script>
+        $('#menu').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $(' nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

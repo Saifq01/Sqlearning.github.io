@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <!--Navigarion-->
+    <nav>
+        <img src="images/main-course-3.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id = "menu" src="images/threelines.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+    <section id="about-home">
+        <h2>About our Course </h2>
+        
+    </section>
+
+    <!-- Features-->
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/main-course-4.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Best heading you can think of</h2>
+            <p>write a phargraph about your classes</p>
+            <div class="about-fe" alt="">
+                <img src="Images/category-1.png" alt="">
+                <div class="fe-text">
+                    <h5> 100+ Courses </h5>
+                    <p>You can start and finsh these course on our sites</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/blog-5.jpg" alt="">
+                <div class="fe-text">
+                    <h5> 100+ Courses </h5>
+                    <p>You can start and finsh these course on our sites</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="features">
+        <h1> Awesome Features</h1>
+        <p>What are you offering in the online courses?</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3> Online Classes</h3>
+                <p>Why should people take this online classes?</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-file-certificate"></i>
+                <h3> Online Classes</h3>
+                <p>Why should people take this online classes?</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3> Online Classes</h3>
+                <p>Why should people take this online classes?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-col">
+            <h3>NewLetter</h3>
+            <p>You can Subscribe to so we can send the Promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="blueviolet">SUBSCRIBE</a>
+            </div>
+        </div>
+
+         <div class="copyright">
+                <p>Copyright &copy2021 All Right Reserved</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div> 
+    </footer>
+    <script>
+        $('#menu').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $(' nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <!--Navigarion-->
+    <nav>
+        <img src="images/main-course-3.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id = "menu" src="images/threelines.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+    <section id="home">
+        <h2>Enroll Our Popular Courses And Skill </h2>
+    </section>
+
+   
+
+<section id="course-inner">
+    <div class="overview">
+        <img class = " course-img "src="images/Python-Programming-Edureka.png">
+        <div class="course-head">
+            <div class="c-name">
+                <h2>Python Beginner Course</h2>
+                <div class="star">
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                </div>
+                <p>
+                    Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+                </p>
+            </div> 
+            <span>$49.99</span>
+             </div>
+             <h3> Instructor</h3>
+             <div class="tutor">
+                 <img src="images/teacher-1.png" alt="">
+                 <div class="tutor-det">
+                     <h5>Dawi</h5>
+                     <p>Web Developer At Google</p>
+                 </div>
+             </div>
+             <hr>
+             <h3>Overview</h3>
+             <p>
+                Python is a language with a simple syntax, and a 
+                powerful set of libraries. It is an interpreted language, 
+                with a rich programming environment, including a robust debugger and profiler.<br><br> 
+                While it is easy for beginners to learn, it is widely used in many scientific areas for data exploration. 
+                This course is an introduction to the Python programming language for students without prior programming experience. We cover data types, control flow, object-oriented programming, and graphical user interface-driven applications.
+                <br><br>  The examples and problems used in this course are drawn from diverse areas such as text processing, simple graphics creation and image manipulation, HTML and web programming, and genomics.
+            </p>
+             <hr>
+             <h3>What you'll learn </h3>
+             <div class="learn">
+                 <p> <i class="far fa-check-circle"></i> is extremely versatile, with multiple uses</p>
+                 <p> <i class="far fa-check-circle"></i> Python is the fastest growing programming language</p>
+                 <p> <i class="far fa-check-circle"></i> Python is in high demand for jobs</p>
+                 <p> <i class="far fa-check-circle"></i> Python is easy to read, write, and learn</p>
+                 <p> <i class="far fa-check-circle"></i> Python has an incredibly supportive community</p>
+                </div>
+    </div>
+    <div class="enroll">
+        <h3>This course includes</h3>
+        <div class="learn">
+            <p> <i class="far fa-video"></i>60 hours videos</p>
+            <p> <i class="far fa-cloud-download"></i>Doanloadable resources</p>
+            <p> <i class="far fa-mobile-alt"></i>Access on mobile and TV </p>
+            <p> <i class="far fa-paperclip"></i>Assignments </p>
+            <p> <i class="far fa-trophy-alt"></i>Certificate of comletion </p>
+            <div class="enroll-btn">
+                <a class="blue" href=""> Enroll Course</a>
+            </div>
+           </div>
+    </div>
+</section>
+
+    
+    <footer>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-0col">
+            <h3>Top Products</h3>
+            <li>Power tool</li>
+            <li>Example</li>
+            <li>Example</li>
+        </div>
+        <div class="footer-col">
+            <h3>NewLetter</h3>
+            <p>You can Subscribe to so we can send the Promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="blueviolet">SUBSCRIBE</a>
+            </div>
+        </div>
+
+         <div class="copyright">
+                <p>Copyright &copy2021 All Right Reserved</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div> 
+    </footer>
+    <script>
+        $('#menu').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $(' nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
